@@ -4,9 +4,40 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Адвокат Федорцова Диана Сергеевна</title>
+
+  <!-- ======== SEO ======== -->
+  <meta name="description" content="Адвокат Федорцова Диана Сергеевна. Трудовые споры, недвижимость, кадровые вопросы, защита в суде. г. Гомель, ул. Барыкина, 113, каб. 8. Тел: +375 44 739-60-10" />
+  <meta name="keywords" content="адвокат, Гомель, трудовые споры, недвижимость, Федорцова, юрист, Беларусь" />
+  <meta name="author" content="Федорцова Диана Сергеевна" />
+
+  <!-- ======== Open Graph (WhatsApp, Viber, ВКонтакте, Facebook) ======== -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://afedortsovbn-commits.github.io/DianaFedortsova/" />
+  <meta property="og:title" content="Адвокат Федорцова Диана Сергеевна" />
+  <meta property="og:description" content="Квалифицированная юридическая помощь. Трудовые споры, недвижимость, защита в суде. г. Гомель. Тел: +375 44 739-60-10" />
+  <meta property="og:image" content="https://afedortsovbn-commits.github.io/DianaFedortsova/preview.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Адвокат Федорцова Диана Сергеевна" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:site_name" content="Адвокат Федорцова Диана Сергеевна" />
+
+  <!-- ======== Twitter Card (работает в Telegram) ======== -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://afedortsovbn-commits.github.io/DianaFedortsova/" />
+  <meta name="twitter:title" content="Адвокат Федорцова Диана Сергеевна" />
+  <meta name="twitter:description" content="Квалифицированная юридическая помощь. Трудовые споры, недвижимость, защита в суде. г. Гомель. Тел: +375 44 739-60-10" />
+  <meta name="twitter:image" content="https://afedortsovbn-commits.github.io/DianaFedortsova/preview.jpg" />
+  <meta name="twitter:image:alt" content="Адвокат Федорцова Диана Сергеевна" />
+
+  <!-- ======== Иконка сайта ======== -->
+  <link rel="icon" type="image/jpeg" href="https://afedortsovbn-commits.github.io/DianaFedortsova/photo.jpg" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
   <style>
     *, *::before, *::after {
       box-sizing: border-box;
@@ -41,7 +72,6 @@
       overflow: hidden;
     }
 
-    /* Фоновый градиент */
     .hero::before {
       content: '';
       position: absolute;
@@ -52,7 +82,6 @@
       z-index: 0;
     }
 
-    /* Декоративная линия слева */
     .hero::after {
       content: '';
       position: absolute;
@@ -187,7 +216,6 @@
       background: linear-gradient(to right, var(--gold), transparent);
     }
 
-    /* Достижения (компактные) */
     .achievements {
       display: flex;
       flex-direction: column;
@@ -289,7 +317,6 @@
     .icon-map { background: rgba(181,145,74,0.15); }
     .icon-map svg { fill: var(--gold); }
 
-    /* Адрес — на всю ширину */
     .contact-address {
       grid-column: 1 / -1;
       white-space: normal;
@@ -300,7 +327,7 @@
       text-overflow: ellipsis;
     }
 
-    /* ========== ВТОРОЙ ЭКРАН (прокрутка) ========== */
+    /* ========== ВТОРОЙ ЭКРАН ========== */
     .about-section {
       background: linear-gradient(135deg, #13131f, #1e1e30);
       padding: 48px 24px;
@@ -476,7 +503,6 @@
 <!-- ============ ПЕРВЫЙ ЭКРАН ============ -->
 <section class="hero">
 
-  <!-- Шапка -->
   <header class="header">
     <div class="header-badge">
       <div class="badge-icon">
@@ -488,19 +514,12 @@
     </div>
   </header>
 
-  <!-- Тело -->
   <div class="hero-body">
 
-    <!-- Фото -->
     <div class="photo-wrap">
-      <!--
-        ЗАМЕНИТЕ src="photo.jpg" на путь к вашему фото.
-        Требования к фото: см. раздел ниже в комментарии.
-      -->
       <img src="photo.jpg" alt="Федорцова Диана Сергеевна — адвокат" />
     </div>
 
-    <!-- Текст -->
     <div class="hero-right">
       <p class="profession">Адвокат</p>
       <h1 class="name">
@@ -518,15 +537,12 @@
 
   </div>
 
-  <!-- Контакты -->
   <div class="contacts">
     <p class="contacts-title">Связаться со мной</p>
     <div class="contacts-grid">
 
-      <!-- Телефон -->
       <a class="contact-link" href="tel:+375447396010">
         <div class="contact-icon icon-phone">
-          <!-- Иконка телефона -->
           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V20a1 1 0 01-1 1C10.61 21 3 13.39 3 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.58a1 1 0 01-.25 1.01l-2.2 2.2z"/>
           </svg>
@@ -534,10 +550,8 @@
         <span class="contact-text">+375 44 739-60-10</span>
       </a>
 
-      <!-- Telegram -->
       <a class="contact-link" href="https://t.me/diana_fedortsova" target="_blank" rel="noopener">
         <div class="contact-icon icon-tg">
-          <!-- Иконка Telegram -->
           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0a12 12 0 00-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 01.171.325c.016.093.036.306.02.472-.18 1.898-.96 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
           </svg>
@@ -545,10 +559,8 @@
         <span class="contact-text">@diana_fedortsova</span>
       </a>
 
-      <!-- Instagram -->
       <a class="contact-link" href="https://instagram.com/advokat_fedortsova" target="_blank" rel="noopener">
         <div class="contact-icon icon-inst">
-          <!-- Иконка Instagram (градиентная) -->
           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <linearGradient id="ig-grad" x1="0%" y1="100%" x2="100%" y2="0%">
@@ -565,10 +577,8 @@
         <span class="contact-text">@advokat_fedortsova</span>
       </a>
 
-      <!-- Адрес -->
       <a class="contact-link contact-address" href="https://maps.google.com/?q=Гомель,+ул.+Барыкина,+113" target="_blank" rel="noopener">
         <div class="contact-icon icon-map">
-          <!-- Иконка геометки -->
           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z"/>
           </svg>
@@ -581,7 +591,7 @@
 
 </section>
 
-<!-- ============ ВТОРОЙ ЭКРАН (о специализации) ============ -->
+<!-- ============ ВТОРОЙ ЭКРАН ============ -->
 <section class="about-section">
   <p class="section-label">Специализация</p>
   <h2 class="section-title">Профессиональная<br/><em>юридическая помощь</em></h2>
